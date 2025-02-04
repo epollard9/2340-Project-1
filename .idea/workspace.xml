@@ -4,22 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e7143bd-f1a2-4509-b77f-8a49d687482a" name="Changes" comment="updating tanay branch">
+    <list default="true" id="3e7143bd-f1a2-4509-b77f-8a49d687482a" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/templates/accounts/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieStore/moviesstore/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieStore/moviesstore/moviesstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieStore/moviesstore/moviesstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieStore/moviesstore/moviesstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieStore/moviesstore/moviesstore/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieStore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieStore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieStoreWebsite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieStoreWebsite/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieStoreWebsite/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieStoreWebsite/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieStoreWebsite/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieStoreWebsite/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieStoreWebsite/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieStore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieStore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,12 +47,12 @@
     &quot;assignee&quot;: &quot;epollard9&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/epollard9/2340-Project-1",
-    "accountId": "a782ff4b-3fe6-4087-9067-014f189669ab"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/epollard9/2340-Project-1&quot;,
+    &quot;accountId&quot;: &quot;d94aa2ac-6117-433c-a3ab-77d194d6643e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -56,24 +65,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "tanay",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;nimay&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Everett\Desktop\DjangoProject\home\templates\home" />
@@ -123,6 +133,7 @@
       <updated>1738025600519</updated>
       <workItem from="1738025602183" duration="2858000" />
       <workItem from="1738291519463" duration="2321000" />
+      <workItem from="1738639331791" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -166,9 +177,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="test commit" />
     <MESSAGE value="updating tanay branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating tanay branch" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
