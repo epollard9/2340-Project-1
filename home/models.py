@@ -21,7 +21,7 @@ class Review(models.Model):
     rating = models.IntegerField(10)
 
     def __str__(self):
-        return str(self.id) + ' - ' + self.name
+        return str(self.id) + ' - ' + self.name + ' - ' + self.rating
 
 class Order(models.Model):
     id = models.AutoField(primary_key=True)
@@ -29,9 +29,8 @@ class Order(models.Model):
     name = models.CharField(max_length=255)
     email = models.EmailField()
 
-
     def __str__(self):
-        return str(self.id) + ' - ' + self.name
+        return str(self.id) + ' - ' + self.name + ' - ' + order_id
 
 
 class Customer(models.Model):
@@ -40,4 +39,4 @@ class Customer(models.Model):
     email = models.EmailField()
 
     def __str__(self):
-        return str(self.id) + ' - ' + self.name
+        return str(self.id) + ' - ' + self.name + ' - ' + email
