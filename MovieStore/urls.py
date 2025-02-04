@@ -1,8 +1,8 @@
 """
-URL configuration for MovieStore project.
+URL configuration for moviesstore project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.1/topics/http/urls/
+    https://docs.djangoproject.com/en/5.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -23,6 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
     path('movies/', include('movies.urls')),
+    path('accounts/', include('accounts.urls')),
 ]
+
 urlpatterns += static(settings.MEDIA_URL,
     document_root=settings.MEDIA_ROOT)
