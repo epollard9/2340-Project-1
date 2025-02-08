@@ -1,4 +1,8 @@
+from django.utils import timezone
+
 from django.db import models
+from django.contrib.auth.models import User
+
 
 # Create your models here.
 
@@ -16,12 +20,12 @@ class Movie(models.Model):
 
 class Review(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=255)
-    review = models.TextField()
-    rating = models.IntegerField(10)
-
+    comment = models.CharField(max_length=255)
+    date = models.DateTimeField(default=timezone.now)
+    movie = models.ForeignKey(Movie, on_delete=models.CASCADE, default = 1)
+    user = models.ForeignKey(User,on_delete=models.CASCADE, default = 1)
     def __str__(self):
-        return str(self.id) + ' - ' + self.name + ' - ' + self.rating
+        return str(self.id) + ' - ' + self.movie.name
 
 class Order(models.Model):
     id = models.AutoField(primary_key=True)
@@ -30,7 +34,7 @@ class Order(models.Model):
     email = models.EmailField()
 
     def __str__(self):
-        return str(self.id) + ' - ' + self.name + ' - ' + order_id
+        return str(self.id) + ' - ' + self.name + ' - ' + self.order_id
 
 
 class Customer(models.Model):
@@ -39,4 +43,4 @@ class Customer(models.Model):
     email = models.EmailField()
 
     def __str__(self):
-        return str(self.id) + ' - ' + self.name + ' - ' + email
+        return str(self.id) + ' - ' + self.name + ' - ' + self.email
