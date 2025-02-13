@@ -133,8 +133,6 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-
-
 load_dotenv()
 SENDGRID_API_KEY = os.getenv('API_KEY')
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
